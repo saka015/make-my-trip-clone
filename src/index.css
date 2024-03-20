@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* backdrop-filter:brightness(10%); */
+  /* filter: brightness(0.5); */
+}
+
+.biz {
+  border-left: 1px dotted gray;
+  border-right: 1px dotted gray;
+}
+.bod {
+  border-left: 1px solid gray;
+  /* border-right: 1px solid gray; */
+}
+.gradient {
+  background-image: linear-gradient(
+    to right,
+    #1a35ad,
+    #152c97,
+    #0f2382,
+    #374170,
+    #37478f
+  );
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li:hover{
+  text-decoration:  underline;
+  cursor: pointer;
+  text-underline-offset: 10px;
+  background-color: rgb(36, 36, 223);
+}
+
+.card{
+  margin: 10px
+}
